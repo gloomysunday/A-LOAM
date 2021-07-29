@@ -640,7 +640,7 @@ Visualization Manager:
       Name: scan
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /kitti/image
+      Image Topic: /image_left
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -667,7 +667,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 0; 0; 0
-    Fixed Frame: camera_init
+    Fixed Frame: //camera_init
     Frame Rate: 30
   Name: root
   Tools:
